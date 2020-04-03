@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pagina Web</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+  <script src="js/jquery-3.4.1.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="FrontEnd1.html">CASIEL RECORDS</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="FrontEnd1.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdowm-toogle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+        aria-haspopup="true" aria expanded="false">
+        Dropdown
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="Tracks.html">Tracks</a>
+         <a class="dropdown-item" href="Genre.html">Genre</a>
+         <a class="dropdown-item" href="Albums.html">Albums</a>
+         <a class="dropdown-item" href="Artists.html">Artists</a>
+         <a class="dropdown-item" href="Employee.html">Employee</a>
+         <a class="dropdown-item" href="Invoice.html">Invoice</a>
+         <a class="dropdown-item" href="Customer.html">Customer</a>
+         <a class="dropdown-item" href="Etc.html">Etc.</a>
+      </div>
+    </li>
+  </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+      </div>
+    </nav>
+    <form>
+      <p><b>
+      <img src="Empresa/Logo.jpeg" alt="" width="170" height="170"> “Sin música, la vida es un viaje por un desierto”.-Pat Conroy
+    </b></p>
+        <div class="well"><h1>Registro de Facturas</h1></div>
+        <div class="container">
+          <div class="form-group">
+            <label for="">Fecha de Factura</label>
+            <input type="date" id="FF" class="form-control" placeholder=" ">
+          </div>
+          <div class="container">
+            <div class="form-group">
+              <label for="">Direccion de envio</label>
+                <input type="text" id="Direccion" class="form-control" placeholder="Direccion de la factura">
+              </div>
+          <div class="form-group">
+              <label for="">Ciudad del envio</label>
+              <input type="text" id="city" class="form-control" placeholder="Ciudad de la factura">
+        </div>
+        <div class="form-group">
+              <label for="">Estado del envio</label>
+              <input type="text" id="state" class="form-control" placeholder="Estado de la factura">
+            </div>
+            <div class="form-group">
+              <label for="">Pais del envio</label>
+              <input type="text" id="country" class="form-control" placeholder="Escriba su Pais">
+            </div>
+            <div class="form-group">
+              <label for="">Codigo Postal del envio</label>
+              <input type="tel" id="postalC" class="form-control" placeholder="Escriba su Codigo Postal">
+            </div>
+            <div class="form-group">
+              <label for="">Total</label>
+              <input type="int" id="total" class="form-control" placeholder="Monto total">
+            </div>
+      </div>
+          <input type="submit" value="Guardar">
+          <input type="reset" value="Borrar">
+        </form>
+      <div class="col card">
+        <small>WEB SITE 2020@</small>
+      </div>
+      <script src="js/bootstrap.js"></script>
+</body>
+</html>
